@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: "en-US"
+tone_instructions: "Direct and terse. No praise, filler, or diff narration. Plain ASCII only: no emoji, no em or en dashes, no smart quotes. Never suggest adding code comments or docstrings; prefer renaming or restructuring for clarity."
+
+reviews:
+  profile: "chill"
+  poem: false
+  sequence_diagrams: false
+  in_progress_fortune: false
+  path_instructions:
+    - path: "Formula/skarn.rb"
+      instructions: >-
+        Current release formula, updated by the skarn release workflow. url, sha256,
+        and version must move together and match the GitHub release assets for every
+        platform block; man page and shell completion install steps must stay; the
+        test block must not require a license or network. sha256 digests are
+        checksums, not secrets.
+    - path: "Formula/skarn@*.rb"
+      instructions: >-
+        Frozen versioned snapshots; flag any change that is not a straight deletion
+        of a retired version.
+  auto_review:
+    enabled: true
+    drafts: false
+  finishing_touches:
+    docstrings:
+      enabled: false
+  tools:
+    markdownlint:
+      enabled: false
+
+chat:
+  auto_reply: true
