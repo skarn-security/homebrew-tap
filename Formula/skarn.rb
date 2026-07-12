@@ -1,6 +1,6 @@
 class Skarn < Formula
   desc "AI session security scanner with built-in session search"
-  homepage "https://github.com/skarn-security/skarn"
+  homepage "https://getskarn.com"
   version "0.17.0"
   license :cannot_represent
 
@@ -38,8 +38,8 @@ class Skarn < Formula
       Get started:
         1. Scan this machine:        skarn assess
         2. Install your license:     skarn license ~/Downloads/<your>.skarnlicense
-        3. Wire the AI-agent guard:  man skarn-guard
-                                     https://github.com/skarn-security/skarn/tree/main/integrations
+        3. Wire the AI-agent guard:  skarn setup
+                                   man skarn-guard
 
       The core scan is free and needs no license.
       License status:  skarn license
