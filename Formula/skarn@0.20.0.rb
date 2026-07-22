@@ -1,4 +1,4 @@
-class Skarn < Formula
+class SkarnAT0200 < Formula
   desc "AI session security scanner with built-in session search"
   homepage "https://getskarn.com"
   version "0.20.0"
