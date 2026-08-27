@@ -7,7 +7,7 @@ class Skarn < Formula
   on_macos do
     on_arm do
       url "https://github.com/skarn-security/skarn-dist/releases/download/v0.26.0/skarn-aarch64-macos.tar.gz"
-      sha256 "410623c5896aa5f2ba79fb0579f57df3966dc3a34381a305cc8a3dddb87208fa"
+      sha256 "3c3111942bb019f9cdb0e2e43dae76662406877ddfabe6e82ab3ee9c45b05276"
     end
     on_intel do
       url "https://github.com/skarn-security/skarn-dist/releases/download/v0.26.0/skarn-x86_64-macos.tar.gz"
