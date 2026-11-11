@@ -1,28 +1,28 @@
 class Skarn < Formula
   desc "AI session security scanner with built-in session search"
   homepage "https://getskarn.com"
-  version "0.35.0"
+  version "0.36.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.35.0/skarn-aarch64-macos.tar.gz"
-      sha256 "a1d615dfab57cf0710e64815c545b5c847027e1e177fa0875c8b28c6c02d58a6"
+      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.36.0/skarn-aarch64-macos.tar.gz"
+      sha256 "af56d4381cf24542bfadaeda47e74be2b0c5d9689e6121a5ea1fb92bbd6026c6"
     end
     on_intel do
-      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.35.0/skarn-x86_64-macos.tar.gz"
-      sha256 "485958fef87f7b784c999ca2842089953602148d23543be3f95f3a1b851e1a14"
+      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.36.0/skarn-x86_64-macos.tar.gz"
+      sha256 "51cf6542c654c6e0a6c26eeafca49e09db8ba08c5a076eba41f4ff8037477a3b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.35.0/skarn-aarch64-linux.tar.gz"
-      sha256 "bf22fe6a20c1ce9761c4a48b9ee4e34987874873ee26265492a7e7223fd6d2b3"
+      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.36.0/skarn-aarch64-linux.tar.gz"
+      sha256 "ea4509fd21c55f7f45c34c091a97b726976d9d9d4e35d75c95b4800e72734aa5"
     end
     on_intel do
-      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.35.0/skarn-x86_64-linux.tar.gz"
-      sha256 "ff6ac3ed44acfb8c8109eb5e94b1d7ec14a4259bd54024e7a6e7a869a5ec6c5f"
+      url "https://github.com/skarn-security/skarn-dist/releases/download/v0.36.0/skarn-x86_64-linux.tar.gz"
+      sha256 "2b1d6ca497d181c78137957948b0718797fb31580453586af323a94c145ebec0"
     end
   end
 
